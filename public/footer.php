@@ -4,8 +4,8 @@
    <div class="span4">
      <h5>Contact us</h5>
      <address>
-     Email: <a href="mailto:support@e-secureforensics.com" style="text-decoration:none;color:#111111;">support@e-secureforensics.com</a></address>
-   </div>© Copyright 2014. All rights reserved. e-Secure Forensics.
+     Email: <a href="#" style="text-decoration:none;color:#111111;"></a></address>
+   </div>
    
 </div>
 </div>

@@ -27,7 +27,6 @@ CREATE TABLE `buyer` (
   `buyer_name` varchar(20) DEFAULT NULL,
   `email` varchar(320) DEFAULT NULL,
   `paypal_email` varchar(320) DEFAULT NULL,
-  `amount_btc` double NOT NULL,
   `btc_public_address` varchar(40) DEFAULT NULL,
   PRIMARY KEY (`buyer_id`),
   UNIQUE KEY `email` (`email`)
@@ -43,6 +42,15 @@ LOCK TABLES `buyer` WRITE;
 /*!40000 ALTER TABLE `buyer` ENABLE KEYS */;
 UNLOCK TABLES;
 
+CREATE TABLE IF NOT EXISTS `fblogin` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `fb_id` int(20) NOT NULL,
+  `name` varchar(300) NOT NULL,
+  `email` varchar(300) NOT NULL,
+  `image` varchar(600) NOT NULL,
+  `postdate` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 --
 -- Table structure for table `seller`
 --
@@ -54,9 +62,9 @@ CREATE TABLE `seller` (
   `seller_id` int(20) NOT NULL AUTO_INCREMENT,
   `seller_name` varchar(20) DEFAULT NULL,
   `email` varchar(320) DEFAULT NULL,
-  `paypal_email` varchar(320) DEFAULT NULL,
-  `amount_btc` double NOT NULL,
-  `btc_public_address` varchar(40) DEFAULT NULL,
+  `password` varchar(20) DEFAULT NULL,
+  `paypal_id` varchar(320) DEFAULT NULL,
+  `sell_amount_btc` double NOT NULL,
   PRIMARY KEY (`seller_id`),
   UNIQUE KEY `email` (`email`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;

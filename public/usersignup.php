@@ -36,7 +36,34 @@ h2{
 p,h3{
   color: #FF6600;
 }
-</style></head>
+</style>
+<script type="text/javascript">
+window.fbAsyncInit = function() {
+  FB.init({
+  appId      : '630913050331922', // replace your app id here
+  channelUrl : 'http://localhost/login/', 
+  status     : true, 
+  cookie     : true, 
+  xfbml      : true  
+  });
+};
+(function(d){
+  var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement('script'); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js";
+  ref.parentNode.insertBefore(js, ref);
+}(document));
+
+function FBLogin(){
+  FB.login(function(response){
+    if(response.authResponse){
+      window.location.href = "actions.php?action=fblogin";
+    }
+  }, {scope: 'email,user_likes'});
+}
+</script>
+</head>
 <!-- NAVBAR
 ================================================== -->
   <body>
@@ -51,7 +78,8 @@ p,h3{
   <div class="col-lg-6">
   <div class="headline"><h2>Create A New Account or Login</h2></div>
   <div class="well"> 
-    
+    <img src="./images/facebook-connect.png" alt="Fb Connect" title="Login with facebook" onclick="FBLogin();"/>
+
   <!-- 1st main heading -->          
    <!--  <div class="row"> -->
     <!-- <div class="col-lg-4"> -->
