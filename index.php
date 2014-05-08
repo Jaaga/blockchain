@@ -14,6 +14,7 @@
 		<div class="container">
 <!-- .logo-box -->
 			<div class="logo-box">
+            <a href="test.php" class="button">See Exchange Rate</a>
 				<h1><a href="index.html"><strong>BITCOIN</strong> </a></h1>
 				<h2>Trading Bitcoin</h2>
 				<p>Its a best place to buy and sell bitcoin.</p>
