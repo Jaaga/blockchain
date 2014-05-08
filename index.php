@@ -20,7 +20,7 @@
 				<a href="" class="button">Learn More</a>
 			</div>
 <!-- /.logo-box -->
-			<img src="http://www.greencoins.org/images/big-model.png" alt="" class="png extra-img"/>
+			<img src="logo.png" alt="" width="140" height="140" class="png extra-img"/>
 		</div>
 	</div>
 	<!-- advanced-content -->
@@ -29,7 +29,7 @@
             <ul class="ca-menu">
                         <li>
                             <a href="">
-                                <span class="ca-icon">A</span>
+                                <span class="ca-icon"></span>
                                 <div class="ca-content">
                                     <h2 class="ca-main">What is the Bitcoin?</h2>
                                     <h3 class="ca-sub">First of all you must know what is the Bitcoin</h3>
@@ -37,7 +37,7 @@
                             </a>                    </li>
                         <li>
                             <a href="">
-                                <span class="ca-icon">I</span>
+                                <span class="ca-icon"></span>
                                 <div class="ca-content">
                                     <h2 class="ca-main">Bitcoin's benefits</h2>
                                     <h3 class="ca-sub">A new culture</h3>
@@ -45,7 +45,7 @@
                             </a>                    </li>
                         <li>
                             <a href="">
-                                <span class="ca-icon">C</span>
+                                <span class="ca-icon"></span>
                                 <div class="ca-content">
                                     <h2 class="ca-main">Buyer</h2>
                                     <h3 class="ca-sub">Let's buy some Bitcoin...</h3>
@@ -53,7 +53,7 @@
                             </a>                    </li>
                         <li>
                             <a href="">
-                                <span class="ca-icon">S</span>
+                                <span class="ca-icon"></span>
                                 <div class="ca-content">
                                     <h2 class="ca-main">Seller</h2>
                                     <h3 class="ca-sub">Let's sell some   Bitcoin..</h3>
