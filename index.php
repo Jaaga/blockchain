@@ -13,6 +13,9 @@
 	<div id="header">
 		<div class="container">
 <!-- .logo-box -->
+                        
+-            
+           
 			<div class="logo-box">
 				<h1><a href="index.html"><strong>BITCOIN</strong> </a></h1>
 				<h2>Trading Bitcoin</h2>
@@ -20,7 +23,7 @@
 				<a href="" class="button">Learn More</a>
 			</div>
 <!-- /.logo-box -->
-			<img src="bitlogo.png" alt="" width="140" height="140" class="png extra-img"/>
+			<img src="bitlogo.png" width="140" height="140" class="png extra-img"/>
 		</div>
 	</div>
 	<!-- advanced-content -->
@@ -36,11 +39,11 @@
                                 </div>
                             </a>                    </li>
                         <li>
-                            <a href="">
+                            <a href="test.php">
                                 <span class="ca-icon"></span>
                                 <div class="ca-content">
-                                    <h2 class="ca-main">Bitcoin's benefits</h2>
-                                    <h3 class="ca-sub">A new culture</h3>
+                                    <h2 class="ca-main">Exchange Rate</h2>
+                                    <h3 class="ca-sub">See the market for current rate:</h3>
                                 </div>
                             </a>                    </li>
                         <li>
