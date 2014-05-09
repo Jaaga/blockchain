@@ -31,7 +31,7 @@
 		<div class="container">
             <ul class="ca-menu">
                         <li>
-                            <a href="">
+                            <a href="http://en.wikipedia.org/wiki/Bitcoin">
                                 <span class="ca-icon"></span>
                                 <div class="ca-content">
                                     <h2 class="ca-main">What is the Bitcoin?</h2>
