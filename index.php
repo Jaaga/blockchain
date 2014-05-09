@@ -15,13 +15,13 @@
 <!-- .logo-box -->
 			<div class="logo-box">
 
-				<h1><a href="index.html"><strong>BITCOIN</strong> </a></h1>
+				<h1><a href="index.php"><strong>BITCOIN</strong> </a></h1>
 				<h2>Trading Bitcoin</h2>
 				<p>Its a best place to buy and sell bitcoin.</p>
 				<a href="" class="button">Learn More</a>
 			</div>
 <!-- /.logo-box -->
-			<img src="logo.png" alt="" width="140" height="140" class="png extra-img"/>
+			<img src="bitcoinlogo.png" alt="" width="140" height="140" />
 		</div>
 	</div>
 	<!-- advanced-content -->
