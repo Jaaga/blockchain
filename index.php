@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <link href="stylesheet.css" rel="stylesheet" type="text/css" />
-<link href="bootstrap.css" rel="stylesheet" type="text/css">
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
 </head>
 <body onload="new ElementMaxHeight();">
 
@@ -14,21 +14,18 @@
 		<div class="container">
 <!-- .logo-box -->
 			<div class="logo-box">
-
-				<h1><a href="index.php"><strong>BITCOIN</strong> </a></h1>
+				<h1><a href="index.html"><strong>BITCOIN</strong> </a></h1>
 				<h2>Trading Bitcoin</h2>
 				<p>Its a best place to buy and sell bitcoin.</p>
 				<a href="" class="button">Learn More</a>
 			</div>
 <!-- /.logo-box -->
-			<img src="bitcoinlogo.png" alt="" width="140" height="140" />
+			<img src="bitlogo.png" alt="" width="140" height="140" class="png extra-img"/>
 		</div>
 	</div>
 	<!-- advanced-content -->
-
 	<div id="top-content">
 		<div class="container">
-<a href="test.php" class="btn btn-danger">See Exchange Rate</a>
             <ul class="ca-menu">
                         <li>
                             <a href="">
