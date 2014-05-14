@@ -1,0 +1,51 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('coin.png');
+ background-size:1250px 600px;
+ background-repeat:no-repeat;
+  height: 600px;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+.trad{
+    background-color:#efefef;
+    border-bottom:1px solid #dbdbdb
+    
+    }
+.trad h3{
+    color:#393c3d;
+    font-size:24px;
+    
+    }    
+.trad p{
+    font-size:24px;
+    margin-bottom:13px;
+    }        
+    
+
