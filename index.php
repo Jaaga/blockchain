@@ -1,90 +1,59 @@
+<?php ?>
 <!DOCTYPE html>
-<html lang="en" lang="en">
-<head>
-<title>Block Chain</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="Content-Style-Type" content="text/css" />
-<link href="stylesheet.css" rel="stylesheet" type="text/css" />
-<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
-</head>
-<body onload="new ElementMaxHeight();">
+<html>
 
-<!-- header -->
-	<div id="header">
-		<div class="container">
-<!-- .logo-box -->
-                        
--            
-           
-			<div class="logo-box">
-				<h1><a href="index.html"><strong>BITCOIN</strong> </a></h1>
-				<h2>Trading Bitcoin</h2>
-				<p>Its a best place to buy and sell bitcoin.</p>
-				<a href="" class="button">Learn More</a>
-			</div>
-<!-- /.logo-box -->
-			<img src="bitlogo.png" width="140" height="140" class="png extra-img"/>
-		</div>
-	</div>
-	<!-- advanced-content -->
-	<div id="top-content">
-		<div class="container">
-            <ul class="ca-menu">
-                        <li>
-                            <a href="http://en.wikipedia.org/wiki/Bitcoin">
-                                <span class="ca-icon"></span>
-                                <div class="ca-content">
-                                    <h2 class="ca-main">What is the Bitcoin?</h2>
-                                    <h3 class="ca-sub">First of all you must know what is the Bitcoin</h3>
-                                </div>
-                            </a>                    </li>
-                        <li>
-                            <a href="test.php">
-                                <span class="ca-icon"></span>
-                                <div class="ca-content">
-                                    <h2 class="ca-main">Exchange Rate</h2>
-                                    <h3 class="ca-sub">See the market for current rate:</h3>
-                                </div>
-                            </a>                    </li>
-                        <li>
-                            <a href="">
-                                <span class="ca-icon"></span>
-                                <div class="ca-content">
-                                    <h2 class="ca-main">Buyer</h2>
-                                    <h3 class="ca-sub">Let's buy some Bitcoin...</h3>
-                                </div>
-                            </a>                    </li>
-                        <li>
-                            <a href="">
-                                <span class="ca-icon"></span>
-                                <div class="ca-content">
-                                    <h2 class="ca-main">Seller</h2>
-                                    <h3 class="ca-sub">Let's sell some   Bitcoin..</h3>
-                                </div>
-                            </a>                    </li>
-                    </ul>
-            
+  <head>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="buttons/css/buttons.css">
+ 
+  </head>
+  <body>
+  <div class="nav">
+    <div class="container">
+     
+      <div class="pull-left"> 
+      <span><a href="#" class="button button-border-action button-pill">BitCoin</a></span>
+      <span><a href="#" class="button button-border-action button-pill">Wallet</a></span>
+      </div>
+      <div class="pull-right">
+      <span><a href="#" class="button button-border-action button-pill">Sign Up</a></span>
+      <span><a href="#" class="button button-border-action button-pill">Log In</a></span>
+      <span><a href="#" class="button button-border-action button-pill">Help</a></span> 
+      </div>
+    </div>
+  </div>
+    <div class="jumbotron">
+      <div class="container">
 
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            
-            
-            
-		</div>
-	</div>
+        <h1>What is Bitcoin</h1>
+        <div id="btc-quote" class="pull-right"></div>
+<script type="text/javascript" src="//cdn-gh.firebase.com/btcquote/embed.js"></script>
+        <p> A digital currency in which transactions can be performed without the need for a central bank..</p>
 
+        <a href="#">Learn More</a>
 
-<!-- footer -->
-	<div id="footer">
-		<div class="container">
-			<div class="inside">
-				<div class="wrapper">
-					
-				</div>
-			</div>
-		</div>
-	</div>
-	
-    
-       
-</body>
+      </div>
+    </div> 
+    <div class="trad">
+    <div class="container">
+     <h2><u> <bold>Trading System </bold></u></h2>
+     <p>In these systems, users place buys and sells themselves on the exchange and the price is set by a market. </p>
+      <div class="row">
+        <div class="col-md-4"><div class="thumbnail"><img src="exchange.jpg"></div>
+         <p><a href="exchange.php">Exchange Rate</a></p>
+        </div>
+        <div class="col-md-4"><div class="thumbnail"><img src="buyer.jpg"></div>
+        <p>Buyer</p></div>
+          <div class="col-md-4"><div class="thumbnail"><img src="seller.jpg"></div><p> Seller</p>
+          </div>
+       </div>
+       </div>
+       </div>  
+       <div class="footer">
+       <div class="container">
+       <p> </p>
+       </div></div>   
+  </body>
 </html>
+

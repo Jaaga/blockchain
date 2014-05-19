@@ -20,9 +20,7 @@
 	<div id="header">
 		<div class="container">
 <!-- .logo-box -->
-           	<div class="logo-box">
-            
--            <a href="test.php" class="button">See Exchange Rate</a>
+           	
 			<div class="logo-box">
 				<h1><a href="index.html"><strong>BITCOIN</strong> </a></h1>
 				<h2>Trading Bitcoin</h2>
@@ -30,7 +28,7 @@
 				<a href="" class="button">Learn More</a>
 			</div>
 <!-- /.logo-box -->
-			<img src="logo.png" alt="" width="140" height="140" class="png extra-img"/>
+			<img src="bitlogo.png" alt="" width="140" height="140" class="png extra-img"/>
 		</div>
 	</div>
 	<!-- advanced-content -->
