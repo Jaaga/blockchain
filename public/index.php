@@ -61,7 +61,7 @@ h2{
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="./dist/images/forensic.png">
+          <img src="../dist/images/bit1.png">
           <div class="container">
             <div class="carousel-caption" style="color: #FF3300">
           <!-- Place to write Content on top of Slider -->
@@ -71,7 +71,7 @@ h2{
           </div>
         </div>
         <div class="item">
-          <img src="./dist/images/networking.png">
+          <img src="../dist/images/bit2.png">
           <div class="container">
             <div class="carousel-caption">
              
@@ -79,7 +79,7 @@ h2{
           </div>
         </div>
         <div class="item">
-          <img src="./dist/images/learn.png">
+          <img src="../dist/images/bit3.png">
           <div class="container">
             <div class="carousel-caption">
               
@@ -103,24 +103,24 @@ h2{
       <div class="row">
         <div class="col-lg-4">
         <div class="well" style="color: #FF6600;">
-          <img class="img-circle" src="./dist/images/malware.png" style="width: 140px; height: 140px;">
-          <h2>Exchange Rates</h2>
+          <img class="img-circle" src="../dist/images/exchange.png" style="width: 140px; height: 140px;">
+          <a href="exchange.php" style="text-decoration:none;color:#FF6600;"><h2>See Exchange Rates</h2></a>
           
         </div>
        </div>
         <!-- /.col-lg-4 -->
         <div class="col-lg-4">
         <div class="well" style="color: #FF6600;">
-          <img class="img-circle" src="./dist/images/digital_forensic.png" style="width: 140px; height: 140px;">
-          <h2>Seller</h2>
+          <img class="img-circle" src="../dist/images/sell.png" style="width: 140px; height: 140px;">
+          <a href="listofseller.php" style="text-decoration:none;color:#FF6600;"><h2>Seller</h2></a>
           
         </div>
        </div>
         <!-- /.col-lg-4 -->
         <div class="col-lg-4">
         <div class="well" style="color: #FF6600;">
-          <img class="img-circle" src="./dist/images/eDiscovery.png" style="width: 140px; height: 140px;">
-          <h2>Buyer</h2>
+          <img class="img-circle" src="../dist/images/buy2.png" style="width: 140px; height: 140px;">
+         <a href="buyer.php" style="text-decoration:none;color:#FF6600;"> <h2>Buyer</h2></a>
           
           
         </div>

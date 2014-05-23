@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">BLOCKCHAIN</a>
+              <a class="navbar-brand" href="#"><b>BLOCKCHAIN</b></a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -24,8 +24,8 @@
                     <li><a href="#" style="color: #FF6600;">Login</a></li>
                     <li class="divider"></li>
                     <li class="dropdown-header">Register</li>
-                    <li><a href="#" style="color: #FF6600;">Buyer's Account</a></li>
-                    <li><a href="#" style="color: #FF6600;">Seller's Account</a></li>
+                    <li><a href="usersignup.php" style="color: #FF6600;">
+                    Click Here to Create Account</a></li>
                   </ul>
                 </li>
               </ul>

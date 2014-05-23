@@ -6,8 +6,7 @@
      <address>
      Email: <a href="mailto:support@e-secureforensics.com" style="text-decoration:none;color:#111111;">support@e-secureforensics.com</a></address>
    </div>© Copyright 2014. All rights reserved. e-Secure Forensics.
-   <div class="span4"></div>
-   <div class="span4"></div>
+   
 </div>
 </div>
 </div>

@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    
-
-    <title></title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="../dist/css/main.css" rel="stylesheet">
-  </head>
-
-  <body>
-
-    <div class="container">
-<div class="well">
-      <form class="form-horizontal">
+<form class="form-horizontal">
 <fieldset>
 
 <!-- Form Name -->
@@ -107,9 +83,3 @@
 
 </fieldset>
 </form>
-
-</div>
-    </div> 
-  
-
-</body></html>

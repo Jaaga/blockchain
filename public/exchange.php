@@ -9,12 +9,16 @@
   <head>
     
     
-    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../dist/bootstrap/css/bootstrap.css">
+    <link href="../dist/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/bootstrap/css/bootstrap-theme.min.css">
+    <script src="../dist/bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="main.css">
     
   </head>
 
   <body>
+  <div id="header"></div>
   <div class="jumbotron">
       <div class="container">
         <h1>What is Bitcoin</h1>
@@ -45,6 +49,22 @@
     <div class="footer">
        <div class="container">
        <p> </p>
-       </div></div>   
+       </div></div> 
+       <!-- Footer -->
+       <div id="footer"></div>
+    <!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../dist/bootstrap/js/jquery.min.js"></script>
+    <script src="../dist/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../dist/bootstrap/js/docs.min.js"></script>
+    <script> 
+  $("#header").load("header.php");
+  $("#footer").load("footer.php");  
+</script>
+  
+  
   </body>
 </html>

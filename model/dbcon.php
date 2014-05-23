@@ -3,9 +3,9 @@ function dbopen(){
 	$host="localhost"; // Host name 
 	$username="root"; // Mysql username 
 	$password="123"; // Mysql password 
-	$db_name="LearnEmp"; // Database name 
+	$db_name="blockchain"; // Database name 
 
-	//$tbl_name="donor"; // Table name 
+	 
 
 	// Connect to server and select databse.
 	$db= new mysqli($host, $username, $password, $db_name);
