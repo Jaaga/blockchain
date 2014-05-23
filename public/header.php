@@ -1,38 +1,34 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
-        
-    <link rel="stylesheet" href="../dist/css/bootstrap.css">
-    <link rel="stylesheet" href="../dist/buttons/css/buttons.css">
-    <link rel="stylesheet" href="../dist/css/main.css">
-
-  </head>
-  <body>
-  <div class="container">
-    <div class="header">
-      <div class="pull-left">
-        <a href="#" class="button button-border-primary button-rounded" 
-        style="text-decoration:none;color: #00a1cb;" >Home</a>
-        <a href="#" class="button button-border-primary button-rounded" 
-        style="text-decoration:none;color: #00a1cb;" >About Us</a>
-        <a href="#" class="button button-border-primary button-rounded" 
-        style="text-decoration:none;color: #00a1cb;" > Contact</a>
-      </div>  
-      <div class="pull-right">
-        <a href="#" class="button button-border-primary button-rounded" 
-        style="text-decoration:none;color: #00a1cb;" >Sign In</a>
-        <a href="#" class="button button-border-primary button-rounded" 
-        style="text-decoration:none;color: #00a1cb;" >Sign Up</a>
-        <a href="#" class="button button-border-primary button-rounded" 
-        style="text-decoration:none;color: #00a1cb;" > Help</a>
-        </div> 
-    </div>
-  </div>    
-
-
-
-  </body>
-
-
-</html>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header" >
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">BLOCKCHAIN</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html" style="color: #FF6600;">Home</a></li>
+              <li><a href="about.html" style="color: #FF6600;">About Us</a></li>
+              <li><a href="services.html" style="color: #FF6600;">Buyer</a></li>
+                <li><a href="#" style="color: #FF6600;">Buyer</a></li>
+                <li><a href="#" style="color: #FF6600;">Seller</a></li>
+                
+                <li class="dropdown">
+            <a href="#" style="color: #FF6600;" class="dropdown-toggle"
+             data-toggle="dropdown">Create Account / Login<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#" style="color: #FF6600;">Login</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Register</li>
+                    <li><a href="#" style="color: #FF6600;">Buyer's Account</a></li>
+                    <li><a href="#" style="color: #FF6600;">Seller's Account</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
