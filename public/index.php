@@ -61,7 +61,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="../dist/images/bit2.png">
+          <img src="../dist/images/b2.jpg">
           <div class="container">
             <div class="carousel-caption">
              
