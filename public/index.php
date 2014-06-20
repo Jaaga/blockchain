@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     
-    <title>Blockchain</title>
+    <title>BlockChain</title>
       
     <!-- Bootstrap core CSS -->
     
@@ -21,29 +21,19 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="../dist/bootstrap/js/bootstrap.min.js"></script>   
     <!-- Custom styles for this template -->
+    <link href="../dist/bootstrap/css/main.css" rel="stylesheet">
     <link href="../dist/bootstrap/css/carousel.css" rel="stylesheet">
     
   <style id="holderjs-style" type="text/css"></style>
   <style type="text/css">
-  p {
-  font: 400 15px/1.5 'Times', serif;
-  text-align: justify;
-}
-h2{
-  border:2px solid;
-  border-radius:25px;
-  font:400 25px/1.5 'Droid Serif';
   
+  @font-face{
+  font-family:'Archistico_Bold'; 
+      src: url('../dist/bootstrap/fonts/Archistico_Bold.ttf');
 }
-.img-circle {
-    width:20px;
-    margin: 10px;
-    border:5px solid #FF6600;
-    border-radius: 100px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-}
-</style></style></head>
+
+  
+</style></head>
 <!-- NAVBAR
 ================================================== -->
   <body>
@@ -63,7 +53,7 @@ h2{
         <div class="item active">
           <img src="../dist/images/bit1.png">
           <div class="container">
-            <div class="carousel-caption" style="color: #FF3300">
+            <div class="carousel-caption" >
           <!-- Place to write Content on top of Slider -->
               <!-- -->
              
@@ -71,7 +61,7 @@ h2{
           </div>
         </div>
         <div class="item">
-          <img src="../dist/images/bit2.png">
+          <img src="../dist/images/b2.jpg">
           <div class="container">
             <div class="carousel-caption">
              
@@ -102,25 +92,25 @@ h2{
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-        <div class="well" style="color: #FF6600;">
-          <img class="img-circle" src="../dist/images/exchange.png" style="width: 140px; height: 140px;">
-          <a href="exchange.php" style="text-decoration:none;color:#FF6600;"><h2>See Exchange Rates</h2></a>
+        <div class="well" >
+          <img class="img-circle" src="../dist/images/exchange.png" >
+          <a href="exchange.php" ><h2>See Exchange Rates</h2></a>
           
         </div>
        </div>
         <!-- /.col-lg-4 -->
         <div class="col-lg-4">
-        <div class="well" style="color: #FF6600;">
-          <img class="img-circle" src="../dist/images/sell.png" style="width: 140px; height: 140px;">
-          <a href="listofseller.php" style="text-decoration:none;color:#FF6600;"><h2>Seller</h2></a>
+        <div class="well" >
+          <img class="img-circle" src="../dist/images/sell.png" >
+          <a href="listofseller.php" ><h2>Seller</h2></a>
           
         </div>
        </div>
         <!-- /.col-lg-4 -->
         <div class="col-lg-4">
-        <div class="well" style="color: #FF6600;">
-          <img class="img-circle" src="../dist/images/buy2.png" style="width: 140px; height: 140px;">
-         <a href="buyer.php" style="text-decoration:none;color:#FF6600;"> <h2>Buyer</h2></a>
+        <div class="well" >
+          <img class="img-circle" src="../dist/images/buy2.png">
+         <a href="buyer.php" > <h2>Buyer</h2></a>
           
           
         </div>
@@ -149,5 +139,4 @@ h2{
   $("#footer").load("footer.php");  
 </script>
   
-
 </body></html>
