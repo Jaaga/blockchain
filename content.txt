@@ -1,0 +1,36 @@
+About Us :
+*********
+We built upon the-best-of-the-breed technologies in today's financial world, blockchain is a platform made specifically for trading crypto currency bitcoins with the lowest possible rates.
+
+  
+What is Bitcoin?
+****************
+Bitcoin is a consensus network that enables a new payment system and a completely digital money. It is the first decentralized peer-to-peer payment network that is powered by its users with no central authority or middlemen. From a user perspective, Bitcoin is pretty much like cash for the Internet. Bitcoin can also be seen as the most prominent triple entry bookkeeping system in existence. 
+
+Why Bitcoin?
+************
+1.Payment freedom - It is possible to send and receive any amount of money   
+ instantly anywhere in the world at any time. No bank holidays. No borders. No imposed limits. Bitcoin allows its users to be in full control of their money.
+
+2.Very low fees - Bitcoin payments are currently processed with either no fees 
+ or extremely small fees. Users may include fees with transactions to receive priority processing, which results in faster confirmation of transactions by the network. Additionally, merchant processors exist to assist merchants in processing transactions, converting bitcoins to fiat currency and depositing funds directly into merchants' bank accounts daily. As these services are based on Bitcoin, they can be offered for much lower fees than with PayPal or credit card networks.
+
+3.Fewer risks for merchants - Bitcoin transactions are secure, irreversible, and 
+ do not contain customers’ sensitive or personal information. This protects merchants from losses caused by fraud or fraudulent chargebacks, and there is no need for PCI compliance. Merchants can easily expand to new markets where either credit cards are not available, or fraud rates are unacceptably high. The net results are lower fees, larger markets, and fewer administrative costs.
+
+4.Security and control - Bitcoin users are in full control of their 
+ transactions; it is impossible for merchants to force unwanted or unnoticed charges as can happen with other payment methods. Bitcoin payments can be made without personal information tied to the transaction. This offers strong protection against identity theft. Bitcoin users can also protect their money with backup and encryption.
+
+5.Transparent and neutral - All information concerning the Bitcoin money supply  
+ itself is readily available on the block chain for anybody to verify and use in real-time. No individual or organization can control or manipulate the Bitcoin protocol because it is cryptographically secure. This allows the core of Bitcoin to be trusted for being completely neutral, transparent and predictable.   
+
+
+How to buy bitcoins?
+********************
+
+First thing you need to do is transfer some money into your Blockchain account. In order to do this you must be logged in to your Blockchain account, go to deposit section and select preferred method of transferring funds. Once we receive your deposit we will credit your account and then you can start purchasing bitcoins right away. Buying bitcoins is easy. You must go to trade section and place instant buy order which will automatically buy bitcoins at lowest price offered on the market. You can also place limit order, where you will need to set price on which you are willing to buy bitcoins.
+
+How to sell bitcoins?
+*********************
+
+If you own some bitcoins and would like to sell them and get money, this is what you need to do. First thing is to load your Blockchain account with bitcoins. To do this you must be logged in to your account, click deposit button and select method bitcoin.Once you have your account loaded with bitcoins you will need to go to sell page and place sell order. You can easily do that by placing instant sell order which will automatically sell your bitcoins at highest price offered on the market. You can also place limit order, where you will need to set the price at which you are willing to sell your coins. Once you successfully sold you bitcoins you can now withdraw your funds in USD or EUR currency.
