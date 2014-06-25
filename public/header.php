@@ -11,17 +11,15 @@
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="index.html" style="color: #FF6600;">Home</a></li>
+                <li><a href="index.php" style="color: #FF6600;">Home</a></li>
               <li><a href="about.html" style="color: #FF6600;">About Us</a></li>
-              <li><a href="services.html" style="color: #FF6600;">Buyer</a></li>
-                
                 <li><a href="#" style="color: #FF6600;">Seller</a></li>
                 
                 <li class="dropdown">
             <a href="#" style="color: #FF6600;" class="dropdown-toggle"
              data-toggle="dropdown">Create Account / Login<b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#" style="color: #FF6600;">Login</a></li>
+                    <li><a href="login.php" style="color: #FF6600;">Login</a></li>
                     <li class="divider"></li>
                     <li class="dropdown-header" >Register</li>
                     <li><a href="usersignup.php" style="color: #FF6600;">

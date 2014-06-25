@@ -26,8 +26,6 @@ CREATE TABLE `buyer` (
   `buyer_id` int(20) NOT NULL AUTO_INCREMENT,
   `buyer_name` varchar(20) DEFAULT NULL,
   `email` varchar(320) DEFAULT NULL,
-  `paypal_email` varchar(320) DEFAULT NULL,
-  `amount_btc` double NOT NULL,
   `btc_public_address` varchar(40) DEFAULT NULL,
   PRIMARY KEY (`buyer_id`),
   UNIQUE KEY `email` (`email`)
@@ -44,6 +42,33 @@ LOCK TABLES `buyer` WRITE;
 UNLOCK TABLES;
 
 --
+-- Table structure for table `fblogin`
+--
+
+DROP TABLE IF EXISTS `fblogin`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `fblogin` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `fb_id` int(20) NOT NULL,
+  `name` varchar(300) NOT NULL,
+  `email` varchar(300) NOT NULL,
+  `image` varchar(600) NOT NULL,
+  `postdate` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `fblogin`
+--
+
+LOCK TABLES `fblogin` WRITE;
+/*!40000 ALTER TABLE `fblogin` DISABLE KEYS */;
+/*!40000 ALTER TABLE `fblogin` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `seller`
 --
 
@@ -54,9 +79,11 @@ CREATE TABLE `seller` (
   `seller_id` int(20) NOT NULL AUTO_INCREMENT,
   `seller_name` varchar(20) DEFAULT NULL,
   `email` varchar(320) DEFAULT NULL,
-  `paypal_email` varchar(320) DEFAULT NULL,
-  `amount_btc` double NOT NULL,
-  `btc_public_address` varchar(40) DEFAULT NULL,
+  `password` varchar(20) DEFAULT NULL,
+  `paypal_id` varchar(320) DEFAULT NULL,
+  `sell_amount_btc` double NOT NULL,
+  `rate_per_BTC` int(11) DEFAULT NULL,
+  `deadline_for_sell` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`seller_id`),
   UNIQUE KEY `email` (`email`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -80,4 +107,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-05-22 10:55:44
+-- Dump completed on 2014-06-25 11:36:09

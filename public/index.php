@@ -64,7 +64,7 @@
           <img src="../dist/images/b2.jpg">
           <div class="container">
             <div class="carousel-caption">
-             
+             <p>jhi</p>
             </div>
           </div>
         </div>
