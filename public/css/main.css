@@ -1,0 +1,220 @@
+
+/*************************************************************
+				GENERAL
+*************************************************************/
+body {
+	font-size: 100%;
+	font-weight: 300;
+	font-family: 'Dosis' ,sans-serif;
+	overflow: auto;
+}
+header {
+	position: fixed;
+}
+
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding:0 5%;
+
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+h3 {
+	margin:  0 0 1em 0;
+}
+
+/*************************************************************
+				COLORS
+*************************************************************/
+body {
+	background-color: #;
+}
+
+header {
+	background-color: #00bfff;
+}
+
+h1, h2 {
+	color: #ffffff;
+}
+
+nav a {
+	color: #ffffff;
+}
+
+
+#wrapper {
+	color: #ffffff;
+}
+
+nav {
+	background-color: #6a5acd;
+}
+
+nav li.selected a {
+	color: #87ceeb
+}
+
+/*************************************************************
+				HEADER
+*************************************************************/
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%
+}
+
+h1 {
+	font-size: 1.75em;
+	line-height: 0.8em;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 0.95em;
+	font-weight: normal;
+	margin: -5px 0 0;
+}
+
+/*************************************************************
+				LOGO
+*************************************************************/
+#logo {
+	margin: 15px 25px 0 15px;
+}
+
+/*************************************************************
+				NAVIGATION
+*************************************************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+nav ul li a.selected {
+	color: #ff8c00;
+}
+
+nav li a:hover {
+	color: #ff8c00;
+	display: block;
+	opacity: 0.8;
+	font-weight: normal;
+	font-size: 100%;
+}
+
+/****************************************************************************
+			main SECTION
+****************************************************************************/
+
+section {
+	width: 60%;
+	float: left; 
+	height: 425px;
+}
+
+aside {
+	width: 30%;
+	height: 425px;
+}
+
+
+/**********************************************************************
+				ASIDE
+**********************************************************************/
+#floating-menu {
+	position: absolute;
+	top: 150px;
+	left: 70%;
+	width: 10%;
+	text-align: center;
+}
+
+#floating-menu ul {
+	margin-bottom: 20px;
+}
+
+#floating-menu ul li a  {
+	display: block;
+	list-style: none;
+	border: 2px solid #1e90ff;
+	padding-right: 5px;
+	border-left: 5px solid #008000;
+	padding: 5px 0 5px 0;
+}
+
+#floating-menu ul.menu1 li a:hover {
+	border-color: 1px solid #09f;
+}
+
+#floating-menu ul.menu2 li a:hover {
+	border-color: 1px solid #9f0;
+}
+
+#floating-menu ul.menu3 li a:hover {
+	border-color: 1px solid #f09;
+}
+
+
+/*************************************************************************
+			FOOTER
+*************************************************************************/
+footer {
+	font-size: 0.75em;
+	clear: both;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.social_icon {
+	width: 20px;
+	height: 20px;
+	margin:0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

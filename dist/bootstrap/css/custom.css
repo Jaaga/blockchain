@@ -1,0 +1,8 @@
+/* customising the header */
+.navbar navbar-default navbar-fixed-top {
+	border-bottom: 1px solid #069;
+}
+
+.navbar-collapse {
+	color: #069;
+}
