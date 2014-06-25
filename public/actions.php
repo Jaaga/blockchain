@@ -35,7 +35,7 @@ switch($action){
 		$user_fnmae = $user_profile["first_name"];
 		$user_image = "https://graph.facebook.com/".$user_fbid."/picture?type=large";
 		$check_select = mysql_num_rows(mysql_query("SELECT * FROM `fblogin` WHERE email = '$user_email'"));
-		if($check_select > 0){
+		if($check_select < 1){
 			mysql_query("INSERT INTO `fblogin` (fb_id, name, email, image, postdate) VALUES ('$user_fbid', '$user_fnmae', '$user_email', '$user_image', '$now')");
 		}
 	}
@@ -46,12 +46,12 @@ switch($action){
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Asif18 tutorial about facebook login for mywebsite using php sdk</title>
+<title></title>
 <script type="text/javascript">
 window.fbAsyncInit = function() {
 	FB.init({
 	appId      : '63091305033192', // replace your app id here
-	channelUrl : 'http://jaaga.us/blockchain/public/', 
+	channelUrl : 'http://blockchain.jaaga.us/public/usersignup.php', 
 	status     : true, 
 	cookie     : true, 
 	xfbml      : true  

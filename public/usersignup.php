@@ -41,7 +41,7 @@ p,h3{
 window.fbAsyncInit = function() {
   FB.init({
   appId      : '630913050331922', // replace your app id here
-  channelUrl : 'http://localhost/login/', 
+  channelUrl : 'http://blockchain.jaaga.us/public/usersignup.php', 
   status     : true, 
   cookie     : true, 
   xfbml      : true  
