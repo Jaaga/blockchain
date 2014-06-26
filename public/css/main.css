@@ -9,7 +9,8 @@ body {
 	overflow: auto;
 }
 header {
-	position: fixed;
+
+	z-index: 0.9;
 }
 
 
@@ -17,7 +18,6 @@ header {
 	max-width: 940px;
 	margin: 0 auto;
 	padding:0 5%;
-
 }
 
 img {
@@ -36,7 +36,7 @@ h3 {
 				COLORS
 *************************************************************/
 body {
-	background-color: #;
+	background-color: #dcdcdc;
 }
 
 header {
@@ -53,7 +53,6 @@ nav a {
 
 
 #wrapper {
-	color: #ffffff;
 }
 
 nav {
@@ -62,6 +61,9 @@ nav {
 
 nav li.selected a {
 	color: #87ceeb
+}
+#floating-menu {
+	background-color: #005387;
 }
 
 /*************************************************************
@@ -135,14 +137,41 @@ nav li a:hover {
 ****************************************************************************/
 
 section {
-	width: 60%;
+	width: 70%;
 	float: left; 
-	height: 425px;
+	height: auto;
+	background-color: #ffffff;
 }
 
 aside {
 	width: 30%;
 	height: 425px;
+}
+
+article {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0 0;
+}
+
+article p {
+	line-height: 30px;
+	font-size: 100%;
+	margin-top: 10px;
+}
+
+article h2 {
+	background-color: #464646;
+	height: 38px;
+	line-height: 38px;
+	font-size: 16px
+	color: #fff;
+}
+
+article h3 {
+	font-size: 15px;
+	color: #808080;
 }
 
 
@@ -153,33 +182,45 @@ aside {
 	position: absolute;
 	top: 150px;
 	left: 70%;
-	width: 10%;
-	text-align: center;
+	width: 15%;
 }
 
 #floating-menu ul {
 	margin-bottom: 20px;
 }
 
+#floating-menu ul li {
+	list-style: none;
+
+}
+
+
 #floating-menu ul li a  {
 	display: block;
 	list-style: none;
-	border: 2px solid #1e90ff;
-	padding-right: 5px;
-	border-left: 5px solid #008000;
-	padding: 5px 0 5px 0;
+	color: #f5f5f5;
+	border-bottom: 2px solid #fafad2;
+	margin-bottom: 5px;
+}
+
+#floating-menu ul li a.selected {
+	color: #ff8c00;
 }
 
 #floating-menu ul.menu1 li a:hover {
-	border-color: 1px solid #09f;
+	color: #ff8c00;
 }
 
 #floating-menu ul.menu2 li a:hover {
-	border-color: 1px solid #9f0;
+	color: #ff8c00;
 }
 
 #floating-menu ul.menu3 li a:hover {
-	border-color: 1px solid #f09;
+	color: #ff8c00;
+}
+
+#floating-menu ul.menu4 li a:hover {
+	color: #ff8c00;
 }
 
 
@@ -190,7 +231,7 @@ footer {
 	font-size: 0.75em;
 	clear: both;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 15px;
 }
 
 .social_icon {
