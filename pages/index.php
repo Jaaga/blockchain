@@ -42,7 +42,7 @@
 	<body>
 
 	<div id="lean_overlay">
-		<div id="login" style="display:one">
+		<div id="login" style="display:none">
 			<h1>user login</h1>
 			<form id="loginform"  name="loginform"  method="post" action="#">
 				<label for="username">Username</label>

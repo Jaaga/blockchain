@@ -191,11 +191,12 @@ article h3 {
   border: 0;
   color: #edf4f9;
   text-decoration: none;
-  background-color: #4f94cf;
+  background-color: #00bfff;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   font-size: 1.3em;
   font-weight: bold;
   padding: 12px 26px 12px 26px;
+  margin-top: 15px;
   line-height: normal;
   text-align: center;
   vertical-align: middle;
@@ -228,13 +229,13 @@ article h3 {
     height:100%;
     width:100%;
     background: #000;
-    display: non;
+    display: none;
 }
  
 #login {
   width: 300px;
   padding: 15px 20px;
-  background: #f3f6fa;
+  background: #005387;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -297,7 +298,7 @@ article h3 {
 	position: absolute;
 	top: 150px;
 	left: 70%;
-	width: 15%;
+	width: 12%;
 }
 
 #floating-menu ul {
@@ -314,7 +315,7 @@ article h3 {
 	display: block;
 	list-style: none;
 	color: #f5f5f5;
-	border-bottom: 2px solid #fafad2;
+	font-size: 17px;
 	margin-bottom: 5px;
 }
 
