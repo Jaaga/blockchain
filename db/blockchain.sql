@@ -19,27 +19,29 @@
 -- Table structure for table `buyer`
 --
 
-DROP TABLE IF EXISTS `buyer`;
+DROP TABLE IF EXISTS `user`;
+
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `buyer` (
-  `buyer_id` int(20) NOT NULL AUTO_INCREMENT,
-  `buyer_name` varchar(20) DEFAULT NULL,
-  `email` varchar(320) DEFAULT NULL,
+CREATE TABLE `user` (
+  `user_id` int(20) NOT NULL AUTO_INCREMENT,
+  `user_name` varchar(20) DEFAULT NULL,
+  `user_email` varchar(320) DEFAULT NULL,
+  `user_password` varchar(20) DEFAULT NULL,
   `btc_public_address` varchar(40) DEFAULT NULL,
-  PRIMARY KEY (`buyer_id`),
-  UNIQUE KEY `email` (`email`)
+  `paypal_id` varchar(320) DEFAULT NULL,
+  `sell_amount_btc` double NOT NULL,
+  `rate_per_BTC` int(11) DEFAULT NULL,
+  `deadline_for_sell` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+  PRIMARY KEY (`user_id`),
+  UNIQUE KEY `user_email` (`user_email`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
 -- Dumping data for table `buyer`
 --
-
-LOCK TABLES `buyer` WRITE;
-/*!40000 ALTER TABLE `buyer` DISABLE KEYS */;
-/*!40000 ALTER TABLE `buyer` ENABLE KEYS */;
-UNLOCK TABLES;
 
 --
 -- Table structure for table `fblogin`
@@ -72,39 +74,5 @@ UNLOCK TABLES;
 -- Table structure for table `seller`
 --
 
-DROP TABLE IF EXISTS `seller`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `seller` (
-  `seller_id` int(20) NOT NULL AUTO_INCREMENT,
-  `seller_name` varchar(20) DEFAULT NULL,
-  `email` varchar(320) DEFAULT NULL,
-  `password` varchar(20) DEFAULT NULL,
-  `paypal_id` varchar(320) DEFAULT NULL,
-  `sell_amount_btc` double NOT NULL,
-  `rate_per_BTC` int(11) DEFAULT NULL,
-  `deadline_for_sell` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  PRIMARY KEY (`seller_id`),
-  UNIQUE KEY `email` (`email`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `seller`
---
-
-LOCK TABLES `seller` WRITE;
-/*!40000 ALTER TABLE `seller` DISABLE KEYS */;
-/*!40000 ALTER TABLE `seller` ENABLE KEYS */;
-UNLOCK TABLES;
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
-
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2014-06-25 11:36:09
