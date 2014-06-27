@@ -40,6 +40,24 @@
 	</header>
 
 	<body>
+
+	<div id="lean_overlay">
+		<div id="login" style="display:one">
+			<h1>user login</h1>
+			<form id="loginform"  name="loginform"  method="post" action="#">
+				<label for="username">Username</label>
+				<input type="text" name="username" id="username" class="textfield" tabindex="1">
+
+				<label for="password"Password>Password</label>
+				<input type="password" name="password" id="password" class="textfield" tabindex="2">
+
+				<div class="center">
+					<input type="submit" name="loginbtn" id="loginbtn" class="flatbtn-blu hidemodal" tabindex="3" value="login">
+				</div> 
+			</form>
+		</div>
+	</div>
+
 		<div id="wrapper">
 			<section>
 				<div id="introduction">
@@ -54,6 +72,9 @@
 
 							</p>
 
+							</article>
+
+							<article>
 							<h2>Why Bitcoin?</h2>
 
 							<h3>Payment freedom</h3>
@@ -168,14 +189,14 @@
 
 	</div>
 
-	<div id="nav-container">
 		<footer>
 			<p>&copy; 2014 All Rights Reserved</p>
 			<a href="#"><img src="../public/images/facebook_icon.png" alt="facebook-icon" class="social_icon"></a>
 			<a href="#"><img src="../public/images/Twitter_icon" alt="twitter-icon" class="social_icon"></a>
 			<a href="#"><img src="../public/images/google-icon.png" alt="google-icon" class="social_icon"></a>				
 		</footer>
-	</div>
+
+
 <script type="text/javascript">
 
 						$sidebar = $("#floating-menu");
