@@ -228,7 +228,7 @@ article h3 {
     height:100%;
     width:100%;
     background: #000;
-    display: non;
+    display: none;
 }
  
 #login {
