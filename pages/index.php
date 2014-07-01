@@ -41,23 +41,7 @@
 
 	<body>
 
-	<div id="lean_overlay">
-		<div id="login" style="display:none">
-			<h1>user login</h1>
-			<form id="loginform"  name="loginform"  method="post" action="#">
-				<label for="username">Username</label>
-				<input type="text" name="username" id="username" class="textfield" tabindex="1">
-
-				<label for="password"Password>Password</label>
-				<input type="password" name="password" id="password" class="textfield" tabindex="2">
-
-				<div class="center">
-					<input type="submit" name="loginbtn" id="loginbtn" class="flatbtn-blu hidemodal" tabindex="3" value="login">
-				</div> 
-			</form>
-		</div>
-	</div>
-
+	
 		<div id="wrapper">
 			<section>
 				<div id="introduction">
@@ -170,8 +154,8 @@
 
 
 						<ul class="menu2">
-							<li><a href="#" onclick="return false;">Login</a></li>
-							<li><a href="#" onclick="return false;">Signup</a></li>
+							<li><a href="login.php" onclick="return true;">Login</a></li>
+							<li><a href="signup.php" onclick="return true;">Signup</a></li>
 						</ul>
 
 						<ul class="menu3">

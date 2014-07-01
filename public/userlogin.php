@@ -34,8 +34,10 @@
    <div class="col-lg-3"></div>
    <div class="col-lg-6">
    <div class="well">
-   <div class="fb-login-button" data-max-rows="1" data-size="medium" data-show-faces="true" data-auto-logout-link="true"></div>
-<a href="logout.php" class="btn btn-danger">logout</a>
+   <div class="fb-login-button" data-max-rows="1" 
+   data-size="medium" data-show-faces="true" data-auto-logout-link="true">
+     
+   </div>
    <form class="form-horizontal" method="post" action="../controller/checklogin.php">
 <fieldset>
 
